@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.list-group {
+  width: 90vw;
+  box-shadow: 2px 3px 5px #000;
+}
+.active,
+.header {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.list-group-item.active {
+  background: linear-gradient(#52487c, #0b032c);
+}
+
+.list-group-item a {
+  color: #0b032c;
+}
+.list-group-item a:hover {
+  color: #1b0868;
+}
+
+@media (min-width: 600px) {
+  .list-group {
+    width: 70vw;
+  }
+}

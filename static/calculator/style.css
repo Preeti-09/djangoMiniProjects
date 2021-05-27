@@ -1,0 +1,46 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.navbar {
+  font-weight: 600;
+  box-shadow: 2px 3px 5px rgb(56, 56, 56);
+  border-radius: 0 0 5px 5px;
+}
+#main {
+  margin-bottom: 20px;
+}
+
+#calc {
+  margin: 1rem auto 0 auto;
+}
+#calc img {
+  border-radius: 3px 3px 0 0;
+}
+#calc .btn {
+  margin-top: 0.4rem;
+}
+
+#res {
+  border: 1px solid rgba(0, 0, 0, 0.233);
+  border-radius: 3px;
+  padding: 7px;
+  padding-left: 12px;
+}
+#about,
+#instructions {
+  text-align: center;
+}
+#calc .lead {
+  text-align: justify;
+}
+
+.footer {
+  height: 50px;
+}
+
+footer {
+  padding-top: 0.4rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
